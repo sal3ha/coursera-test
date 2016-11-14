@@ -1,0 +1,134 @@
+body{
+  font-size: 5px;
+  color: #fff;
+  background-color: #500000;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/**Header*/
+
+#header-nav{
+
+  background-color: #FFb761;
+  border-radius: 0;
+  border:0;
+  font-size: 40px;
+  
+}
+
+nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#chicken {
+  border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+
+#beef {
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+
+#sushi {
+  border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+}
+
+h1{
+
+  padding-top: 50px;
+}
+
+
+
+.container2{
+  background-color: #800000;
+  margin-top: 150px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 10000px;
+  }
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+
+/* Desktops */
+  @media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+
+  /* Tablets */
+  @media only screen (min-width: 768px) and (max-width: 991px) {
+ 
+
+}
+
+
+
+/* mobile Phones */
+  @media only screen and (max-width: 767px) {
+
+    .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+    .navbar-brand {
+    padding-top: 10px;
+
+  }
+
+ #collapsable-nav { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+
+  }
+
+  
