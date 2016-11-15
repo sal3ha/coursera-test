@@ -60,7 +60,10 @@ h1{
   margin-left: 30px;
   margin-right: 30px;
   height: 10000px;
+  font-size: 30px;
   }
+
+
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
@@ -75,7 +78,10 @@ h1{
 
   /* Tablets */
   @media only screen (min-width: 768px) and (max-width: 991px) {
- 
+   .container  {
+    margin-top: 30px;
+    padding: 0;
+  }
 
 }
 
@@ -113,12 +119,6 @@ h1{
     border: 2px solid #fff;
     background-color: #f6b319;
     color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
   }
   /* End Header */
 
